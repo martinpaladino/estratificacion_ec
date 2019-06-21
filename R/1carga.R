@@ -32,4 +32,4 @@ hogares <- as_factor(hogares) # Listo!
 
 # Base conjunta=======
 
-# Acá va a venir el código para unir las dos bases de datos...
+unida <- left_join(personas, hogares, by = "idenhog")
